@@ -1,0 +1,10 @@
+# Only reviewed public documentation and images may be tracked.
+*
+!/.gitignore
+!/README.md
+!/USER-GUIDE.md
+!/CHANGELOG.md
+!/assets/
+!/assets/app.png
+!/assets/download-installer.svg
+!/assets/download-portable.svg

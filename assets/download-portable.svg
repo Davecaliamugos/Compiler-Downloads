@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="209" height="46" viewBox="0 0 209 46" role="img" aria-labelledby="title">
+  <title id="title">Download portable ZIP</title>
+  <rect x="0.5" y="0.5" width="208" height="45" rx="7" fill="#f6f8fa" stroke="#8c959f"/>
+  <path d="M23 13v13m-5-5 5 5 5-5m-12 8v4h14v-4" fill="none" stroke="#24292f" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="44" y="28" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#24292f">Download portable ZIP</text>
+</svg>
