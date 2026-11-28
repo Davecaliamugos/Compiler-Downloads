@@ -4,6 +4,19 @@
 
 Codebase Compiler combines the readable source files in a project into one `.txt` file. Each file has a relative-path label so readers can tell where the code belongs. Your project is read, not executed.
 
+## Contents
+
+- [Install and open](#install-and-open)
+- [Export your first project](#export-your-first-project)
+- [Project profiles](#project-profiles)
+- [Appearance and startup](#appearance-and-startup)
+- [Settings storage and backup](#settings-storage-and-backup)
+- [Update or uninstall](#update-or-uninstall)
+- [Verify a download](#verify-a-download)
+- [Troubleshooting](#troubleshooting)
+- [Keyboard shortcuts](#keyboard-shortcuts)
+- [Privacy and file handling](#privacy-and-file-handling)
+
 ## Install and open
 
 ### Windows installer
@@ -71,6 +84,12 @@ Use **Refresh preview** after changing source files. Export always scans again, 
 Review the project, output path, and exclusion counts, then choose **Export text file**. After completion, use **Open exported file** or **Open folder**.
 
 Review the summary for skipped files, size limits, and warnings. Existing exports are never overwritten; a remembered destination is adjusted to suggest a fresh filename. Processing runs in the background, and relevant controls are locked until it finishes.
+
+### Before sharing an export
+
+Open the exported text and check that it contains only the files you intended to share. Review filenames, paths, comments, configuration values, and example data for private information. The preview lists metadata; it does not replace reading the final export. Secret detection is best effort and does not certify an export as safe to publish.
+
+Keep your settings JSON private: it can contain local project and output paths. When reporting an issue, use a small synthetic project where possible, and include only the relevant redacted error text rather than your full export or preferences file.
 
 ## Project profiles
 

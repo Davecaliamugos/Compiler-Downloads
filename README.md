@@ -11,6 +11,15 @@ Turn a project folder into one readable text file. Choose what to exclude, revie
 
 [User guide](USER-GUIDE.md) · [All releases](https://github.com/Davecaliamugos/Compiler-Downloads/releases) · [Changelog](CHANGELOG.md) · [Report an issue](https://github.com/Davecaliamugos/Compiler-Downloads/issues)
 
+## Quick start
+
+1. Download the installer or portable ZIP using the buttons above.
+2. Install the app, or extract the portable ZIP before opening it.
+3. Choose a project and a new output filename, review exclusions, then preview the included files.
+4. Export and review the resulting text before sharing it.
+
+No Python installation is needed. See the [user guide](USER-GUIDE.md) for detailed instructions.
+
 ## Download
 
 | Edition | Best for | How to use |
@@ -35,7 +44,7 @@ Read the [step-by-step user guide](USER-GUIDE.md) for installation, exclusion ex
 
 ## Features
 
-- **Mixed-language projects.** Combine readable UTF-8 source files, including files without extensions. Tested with a 502-file GUI export.
+- **Mixed-language projects.** Combine readable UTF-8 source files, including files without extensions.
 - **Useful defaults.** Skip dependencies, generated files, `.txt` files, `package.json`, common lockfiles, binaries, and known sensitive files.
 - **Review before exporting.** See file paths, inclusion decisions, skip reasons, sizes, and estimated output size. The preview shows metadata rather than source contents.
 - **Per-project profiles.** Remember exclusions, custom rules, output preferences, Git ignore handling, and limits for each folder.
@@ -50,7 +59,7 @@ Environment files, private keys, credential files, known sensitive folders, dete
 
 The default limits are **1 MiB per file** and **50 MiB of combined file blocks**. Adjust them in **Size limits**. Size exclusions can produce a partial export; review the final summary. UTF-16 and other non-UTF-8 files are skipped.
 
-Automatic secret detection is best effort. Review the exported text before sharing it; paths and comments can also contain private information.
+Automatic secret detection is best effort. Review the exported text before sharing it; paths and comments can also contain private information. Sending an export to an AI service, issue tracker, or another person shares its contents outside this app.
 
 ## Settings and updates
 
